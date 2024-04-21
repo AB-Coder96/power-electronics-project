@@ -1,0 +1,69 @@
+
+**** 10/24/18 11:54:47 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-igbt"  [ F:\ARSHAD\REFFRENCES\POWR ELECTRONIC\HW\HW2\HW2\igbt-SCHEMATIC1-igbt.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "igbt-SCHEMATIC1-igbt.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN V_Vce 0 40v 0.1 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\igbt-SCHEMATIC1.net" 
+
+
+
+**** INCLUDING igbt-SCHEMATIC1.net ****
+* source IGBT
+V_Vge         N00098 0 15Vdc
+V_Vce         N00557 0 5Vdc
+Z_Z7         N00557 N00098 0 Z1MBI75L-060
+
+**** RESUMING igbt-SCHEMATIC1-igbt.sim.cir ****
+.END
+
+**** 10/24/18 11:54:47 ********* PSpice 9.2 (Mar 2000) ******** ID# 1 ********
+
+ ** Profile: "SCHEMATIC1-igbt"  [ F:\ARSHAD\REFFRENCES\POWR ELECTRONIC\HW\HW2\HW2\igbt-SCHEMATIC1-igbt.sim ] 
+
+
+ ****     IGBT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Z1MBI75L-060    
+               NIGBT           
+          VT    4.5712       
+          KF    1.8078       
+         CGS   34.577000E-09 
+        COXD   61.951000E-09 
+         VTD   -5            
+         TAU  234.760000E-09 
+          KP    9.1741       
+        AREA   37.500000E-06 
+         AGD   18.750000E-06 
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .06
+

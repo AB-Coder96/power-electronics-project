@@ -1,0 +1,4 @@
+* source IGBT
+V_Vge         N00098 0 15Vdc
+V_Vce         N00557 0 5Vdc
+Z_Z7         N00557 N00098 0 Z1MBI75L-060

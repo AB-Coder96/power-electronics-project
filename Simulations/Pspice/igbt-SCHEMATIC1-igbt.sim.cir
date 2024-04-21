@@ -1,0 +1,17 @@
+** Profile: "SCHEMATIC1-igbt"  [ F:\ARSHAD\REFFRENCES\POWR ELECTRONIC\HW\HW2\HW2\igbt-SCHEMATIC1-igbt.sim ] 
+
+** Creating circuit file "igbt-SCHEMATIC1-igbt.sim.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Program Files\Orcad\PSpice\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.DC LIN V_Vce 0 40v 0.1 
+.PROBE V(*) I(*) W(*) D(*) NOISE(*) 
+.INC ".\igbt-SCHEMATIC1.net" 
+
+
+.END
